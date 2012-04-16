@@ -825,3 +825,15 @@ p code {
 	border-left: 5px solid #BBB;
 	padding: 4px;
 }
+
+/*
+ * iss' indent adjacent paragraphs
+ */
+/*p {
+	margin-bottom: 0px;
+}
+p+p {
+	margin-top: 0px;
+	text-indent: 1.5em;
+}*/
+
