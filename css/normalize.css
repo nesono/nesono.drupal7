@@ -426,7 +426,8 @@ blockquote {
  */
 
 dfn {
-  font-style: italic;
+  /*font-style: italic;*/
+	font-family: 'TeXGyrePagellaItalic';
 }
 
 /*

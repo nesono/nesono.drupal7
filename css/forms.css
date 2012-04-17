@@ -16,7 +16,8 @@
 
 .form-item label { /* The label for a form element */
   display: block;
-  font-weight: bold;
+  /*font-weight: bold;*/
+	font-family: 'TeXGyrePagellaBold';
 }
 
 .form-item label.option { /* The label for a radio button or checkbox */
