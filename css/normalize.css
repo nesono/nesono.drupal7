@@ -900,8 +900,8 @@ p+p {
 
 
 /*
- * iss' adding linespace below title
+ * iss' adding linespace below title when showing a view
  */
-h1.title {
-  padding-bottom: 0.5em;
+h1.title + div.view {
+  padding-top: 0.6em;
 }
