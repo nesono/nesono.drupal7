@@ -437,6 +437,13 @@ dfn {
 }
 
 /*
+ * iss' italic font
+ */
+i, cite, em, var, address, dfn {
+	font-family: 'TeXGyrePagellaItalic';
+}
+
+/*
  * Addresses styling not present in IE6/7/8/9
  */
 
