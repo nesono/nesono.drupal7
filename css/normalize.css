@@ -343,6 +343,7 @@ h1 {
   /* Sets 1 unit of vertical rhythm on the top and bottom margins. */
   margin-top: 0.75em; /* 1.5rem / 2em = .75em */
   margin-bottom: 0.75em;
+	font-weight: normal;
 }
 
 h2 {
@@ -352,6 +353,7 @@ h2 {
   margin-top: 1em; /* 1.5rem / 1.5em = 1em */
   margin-bottom: 1em;
 	/*text-transform: uppercase;*/
+	font-weight: normal;
 }
 
 h3 {
@@ -360,6 +362,7 @@ h3 {
   line-height: 1.282em; /* 1.5rem / 1.17em = 1.282em */
   margin-top: 1.282em;
   margin-bottom: 1.282em;
+	font-weight: normal;
 }
 
 h4 {
@@ -368,6 +371,7 @@ h4 {
   line-height: 1.5em; /* 1.5rem / 1em = 1.5em */
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+	font-weight: normal;
 }
 
 h5 {
@@ -376,6 +380,7 @@ h5 {
   line-height: 1.807em; /* 1.5rem / 0.83em = 1.807em */
   margin-top: 1.807em;
   margin-bottom: 1.807em;
+	font-weight: normal;
 }
 
 h6 {
@@ -384,6 +389,7 @@ h6 {
   line-height: 2em; /* 1.5rem / .75em = 2em */
   margin-top: 2em;
   margin-bottom: 2em;
+	font-weight: normal;
 }
 
 /* Thematic break */
