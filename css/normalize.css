@@ -431,16 +431,17 @@ blockquote {
  * Addresses styling not present in S5, Chrome
  */
 
-dfn {
-  /*font-style: italic;*/
-	font-family: 'TeXGyrePagellaItalic';
-}
+/* disable in favour of italic style below */
+/*dfn {
+  font-style: italic;
+}*/
 
 /*
  * iss' italic font
  */
 i, cite, em, var, address, dfn {
 	font-family: 'TeXGyrePagellaItalic';
+	font-style: normal;
 }
 
 /*
