@@ -64,10 +64,27 @@ li a.active {
 
 #navigation ul.links li,
 #navigation ul.menu li { /* A simple method to get navigation links to appear in one line. */
-  float: left; /* LTR */
+  /*float: left;*/ /* LTR */
   padding: 0 10px 0 0; /* LTR */
   list-style-type: none;
   list-style-image: none;
+}
+
+/*
+ * iss' private links menu
+ */
+#block-menu-menu-private-links ul li {
+  display: inline;
+	padding: 0 10px 0 0;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+/*
+ * iss' navigation (main menu) is centered
+ */
+nav#main-menu {
+  text-align: center;
 }
 
 /*
