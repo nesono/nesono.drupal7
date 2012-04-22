@@ -829,7 +829,7 @@ ul.nice-menu ul {
  * iss' style for submission paragraph
  */
 p.submitted {
-	text-align: right;
+	/*text-align: right;*/
 	margin: 0;
 	font-size: 75%;
 	color: #888;
@@ -867,12 +867,15 @@ div.field-type-taxonomy-term-reference > div.field-items > div > a:visited {
 div#block-search-form {
 	text-align: right;
 	font-size: 80%;
+	margin-bottom: 0.5em;
+	margin-top: 1.5em;
+	float: right;
 }
 
 /*
- * iss' bottom ruls under page header
+ * iss' bottom ruls under navigation
  */
-div#page > header {
+#navigation {
 	border-bottom: 2px solid #DDD;
 }
 
