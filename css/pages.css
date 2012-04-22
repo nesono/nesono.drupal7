@@ -79,7 +79,7 @@ body {
 }
 
 .region-header { /* Wrapper for any blocks placed in the header region */
-  clear: both; /* Clear the logo */
+  /*clear: both;*/ /* Clear the logo */
 }
 
 /*
@@ -94,6 +94,7 @@ body {
  */
 
 #content {
+  margin-top: 1em;
 }
 
 .region-highlighted {
