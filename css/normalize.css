@@ -911,3 +911,11 @@ p+p {
 h1.title + div.view {
   padding-top: 0.6em;
 }
+
+/*
+ * iss' text area formatting
+ */
+.node-form textarea {
+  font-family: Myriad, Monaco, Monospace, Courier;
+	font-size: 10pt;
+}
