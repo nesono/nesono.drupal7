@@ -240,4 +240,10 @@
     width: 100%;
     text-align: right;
   }
+	/*
+	 * iss' centered footer
+	 */
+	#footer {
+	  text-align: center;
+  }
 }
