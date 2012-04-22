@@ -81,11 +81,28 @@ li a.active {
 }
 
 /*
+ * iss' cleared float after search box
+ */
+#block-menu-menu-private-links {
+  clear: both;
+	margin: 0;
+}
+
+/*
+ * iss' disabled padding for private links
+ */
+#block-menu-menu-private-links .menu {
+  padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
+
+/*
  * iss' navigation (main menu) is centered
  */
-nav#main-menu {
+/*nav#main-menu {
   text-align: center;
-}
+}*/
 
 /*
  * iss' addition for nice menu link colors
