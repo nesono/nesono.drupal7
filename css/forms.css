@@ -146,8 +146,9 @@ td.menu-disabled {
 	border-radius: 5px;
 }
 #search-block-form input.form-submit {
-  border: 1px solid #922;
-	border-radius: 5px;
+  /*border: 1px solid #922;
+	border-radius: 5px;*/
+  border: none;
 	color: #922;
 	background-color: transparent;
 	font-style: italic;
