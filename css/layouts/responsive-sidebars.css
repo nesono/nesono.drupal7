@@ -95,10 +95,11 @@
 	 * iss' search block form for small screens
 	 */
 	.form-item-search-block-form input {
-		width: 80px;
+		width: 90px;
 	}
 	#search-block-form input.form-submit {
 		height: 2em;
+		padding: 0;
 	}
 
 	#site-name { /* The name of the website */
