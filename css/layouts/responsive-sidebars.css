@@ -64,16 +64,6 @@
 	line-height: 1em;
 }
 
-.form-item-search-block-form input {
-  border: 1px solid #BBB;
-}
-#search-block-form input.form-submit {
-  border: 1px solid #922;
-	color: #922;
-	background-color: transparent;
-	font-style: italic;
-}
-
 
 /*
  * Navigation bar
@@ -106,6 +96,9 @@
 	 */
 	.form-item-search-block-form input {
 		width: 80px;
+	}
+	#search-block-form input.form-submit {
+		height: 2em;
 	}
 
 	#site-name { /* The name of the website */
