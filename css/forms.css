@@ -137,3 +137,19 @@ form table .item-list ul {
 td.menu-disabled {
   background: #ccc;
 }
+
+/*
+ * iss' search form settings
+ */
+.form-item-search-block-form input {
+  border: 1px dotted #BBB;
+	border-radius: 5px;
+}
+#search-block-form input.form-submit {
+  border: 1px solid #922;
+	border-radius: 5px;
+	color: #922;
+	background-color: transparent;
+	font-style: italic;
+}
+
