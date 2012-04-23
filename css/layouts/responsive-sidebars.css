@@ -56,6 +56,26 @@
 }
 
 /*
+ * iss' default setting for site-name dimenstions
+ */
+#site-name { /* The name of the website */
+	margin: 0;
+	font-size: 3em;
+	line-height: 1em;
+}
+
+.form-item-search-block-form input {
+  border: 1px solid #BBB;
+}
+#search-block-form input.form-submit {
+  border: 1px solid #922;
+	color: #922;
+	background-color: transparent;
+	font-style: italic;
+}
+
+
+/*
  * Navigation bar
  */
 
@@ -63,12 +83,6 @@
   #main {
     padding-top: 4em; /* Move all the children of #main down to make room. */
   }
-
-	#site-name { /* The name of the website */
-		margin: 0;
-		font-size: 3em;
-		line-height: 1em;
-	}
 
   #navigation {
     position: absolute;
