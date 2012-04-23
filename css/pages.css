@@ -60,8 +60,8 @@ body {
 
 #site-name { /* The name of the website */
   margin: 0;
-  font-size: 2em;
-  line-height: 1.5em;
+  font-size: 3em;
+  line-height: 1em;
 }
 #site-name a:link,
 #site-name a:visited {
