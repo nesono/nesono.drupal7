@@ -924,3 +924,13 @@ h1.title + div.view {
 	font-size: 10pt;
 }
 
+/*
+ * iss' fix for syntaxhighlighter scrollbar on the right
+ */
+.syntaxhighlighter { overflow-y: hidden !important; }
+/*
+ * iss makes syntaxhighlighter wrap code (again)
+ */
+.syntaxhighlighter .line {
+	white-space: pre-wrap !important; /* make code wrap */
+}
