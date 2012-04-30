@@ -889,11 +889,12 @@ h2.block-title {
 /*
  * iss' codeformatting
  */
-code {
+code[lang] {
   border: 1px solid #BBB;
 	border-left: 5px solid #BBB;
 	padding: 4px;
 	display: block;
+	white-space: pre;
 }
 
 /*
