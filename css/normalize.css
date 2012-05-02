@@ -273,6 +273,8 @@ a:visited {
   color: #B88;
 }
 
+/*a:after {content: '[]'}*/
+
 a:hover,
 a:focus {
   color: #B88;
@@ -887,17 +889,6 @@ h2.block-title {
 }
 
 /*
- * iss' codeformatting
- */
-code[lang] {
-  border: 1px solid #BBB;
-	border-left: 5px solid #BBB;
-	padding: 4px;
-	display: block;
-	white-space: pre;
-}
-
-/*
  * iss' indent adjacent paragraphs
  */
 /*p {
@@ -925,12 +916,38 @@ h1.title + div.view {
 }
 
 /*
+ * iss' codeformatting
+ */
+div.syntaxhighlighter {
+  border: 1px solid #BBB;
+	border-left: 5px solid #BBB;
+	padding:4px 0 4px 4px;
+}
+
+/*
  * iss' fix for syntaxhighlighter scrollbar on the right
  */
-.syntaxhighlighter { overflow-y: hidden !important; }
+.syntaxhighlighter {
+  overflow-y: hidden !important;
+}
 /*
  * iss makes syntaxhighlighter wrap code (again)
  */
 .syntaxhighlighter .line {
 	white-space: pre-wrap !important; /* make code wrap */
+}
+
+/*
+ * iss fix for showing the whole description (e.g. in flattr config in content types)
+ */
+div.description {
+  white-space: normal;
+  line-height: 1.3em;
+}
+
+/*
+ * iss fix for secondary tabs top padding (Default | Teaser | ...)
+ */
+ul.secondary {
+  margin-top: 1em;
 }
