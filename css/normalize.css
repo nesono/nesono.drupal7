@@ -858,9 +858,27 @@ div.field-type-taxonomy-term-reference > div.field-items div {
 	padding-right:1ex;
 }
 
-div.field-type-taxonomy-term-reference > div.field-items > div > a:link,
+/* grey links in blog categories */
+/*div.field-type-taxonomy-term-reference > div.field-items > div > a:link,
 div.field-type-taxonomy-term-reference > div.field-items > div > a:visited {
 	color: #888;
+}*/
+
+/* show blog categories inline with label */
+div.field-type-taxonomy-term-reference .field-label,
+div.field-type-taxonomy-term-reference .field-items {
+	display: inline;
+}
+
+/* hide blog categories label */
+div.field-type-taxonomy-term-reference .field-label {
+  display: none;
+}
+
+/* separator between categories */
+div.field-type-taxonomy-term-reference .field-item + .field-item {
+  border-left: 1px dotted #DDD;
+	padding-left: 5px;
 }
 
 /*
