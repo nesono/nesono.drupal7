@@ -858,6 +858,13 @@ div.field-type-taxonomy-term-reference > div.field-items div {
 	padding-right:1ex;
 }
 
+/*div.field-type-taxonomy-term-reference > div.field-items div a{
+  background: #CCC;
+  color: white;
+  padding: 0.1em;
+  border-radius: 0.1em;
+}*/
+
 /* grey links in blog categories */
 /*div.field-type-taxonomy-term-reference > div.field-items > div > a:link,
 div.field-type-taxonomy-term-reference > div.field-items > div > a:visited {
