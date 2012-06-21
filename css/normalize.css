@@ -157,18 +157,8 @@ audio:not([controls]) {
  */
 
 html {
-  /*
-   * To use a 14px font size on the page, delete the 16px and 12px declarations.
-   * To use a 12px font size on the page, delete the 16px and 14px declarations.
-   */
-
-  /* Use a 12px base font size */
-  font-size: 75%; /* 16px x 75% = 12px */
-  /* Use a 14px base font size */
-  font-size: 87.5%; /* 16px x .875 = 14px */
-
-  /* Use a 16px base font size */
-  font-size: 100%; /* 1 */
+	/* Use a 16px base font size */
+	font-size: 100%; /* 16px x 87.5% = 12px */
 
   -webkit-text-size-adjust: 100%; /* 2 */
   -ms-text-size-adjust: 100%; /* 2 */
@@ -338,8 +328,7 @@ h2.node-title a:visited {
  */
 
 h1 {
-	/*font: 32px/48px 'TeXGyrePagellaBold', Palatino, Georgia, "DejaVu Serif", serif;*/
-  font-size: 2em;
+  font-size: 1.5em;
   /* Sets the line height to 2 units of vertical rhythm */
   line-height: 1.5em; /* 3rem / 2em = 1.5em */
   /* Sets 1 unit of vertical rhythm on the top and bottom margins. */
@@ -349,8 +338,7 @@ h1 {
 }
 
 h2 {
-	/*font: 24px/36px 'TeXGyrePagellaBold', Palatino, Georgia, "DejaVu Serif", serif;*/
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.5em; /* 3rem / 1.5em = 2em */
   margin-top: 1em; /* 1.5rem / 1.5em = 1em */
   margin-bottom: 1em;
@@ -359,7 +347,6 @@ h2 {
 }
 
 h3 {
-	/*font: 19px/28px 'TeXGyrePagellaBold', Palatino, Georgia, "DejaVu Serif", serif;*/
   font-size: 1.17em;
   line-height: 1.282em; /* 1.5rem / 1.17em = 1.282em */
   margin-top: 1.282em;
@@ -369,7 +356,6 @@ h3 {
 
 h4 {
   font-size: 1em;
-	/*font: 16px/24px 'TeXGyrePagellaBold', Palatino, Georgia, "DejaVu Serif", serif;*/
   line-height: 1.5em; /* 1.5rem / 1em = 1.5em */
   margin-top: 1.5em;
   margin-bottom: 1.5em;
@@ -378,7 +364,6 @@ h4 {
 
 h5 {
   font-size: 0.83em;
-	/*font: 13px/20px 'TeXGyrePagellaBold', Palatino, Georgia, "DejaVu Serif", serif;*/
   line-height: 1.807em; /* 1.5rem / 0.83em = 1.807em */
   margin-top: 1.807em;
   margin-bottom: 1.807em;
@@ -387,7 +372,6 @@ h5 {
 
 h6 {
   font-size: 0.75em;
-	/*font: 12px/18px 'TeXGyrePagellaBold', Palatino, Georgia, "DejaVu Serif", serif;*/
   line-height: 2em; /* 1.5rem / .75em = 2em */
   margin-top: 2em;
   margin-bottom: 2em;
@@ -419,7 +403,6 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
-	/*font-family: 'TeXGyrePagellaBold';*/
 }
 
 blockquote {
@@ -440,7 +423,6 @@ blockquote {
  * iss' italic font
  */
 i, cite, em, var, address, dfn {
-	/*font-family: 'TeXGyrePagellaItalic';*/
 	font-style: italic;
 }
 
