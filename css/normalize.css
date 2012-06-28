@@ -254,30 +254,23 @@ body {
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
 
+/* DEFTAULT LINKS */
 a:link {
   color: #922;
   text-decoration: none;
 }
-
 a:visited {
   color: #B88;
 }
-
-/*a:after {content: '[]'}*/
-
 a:hover,
-a:focus {
-  color: #B88;
-}
-
+a:focus,
 a:active {
-  color: #888;
+  color: #B88;
 }
 
 /*
  * Addresses outline displayed oddly in Chrome
  */
-
 a:focus {
   outline: thin dotted;
 }
@@ -286,10 +279,24 @@ a:focus {
  * Improves readability when focused and also mouse hovered in all browsers
  * people.opera.com/patrickl/experiments/keyboard/test
  */
-
 a:hover,
 a:active {
   outline: 0;
+}
+
+/* TEXT BODY LINKS */
+.field-name-body a:link,
+.field-name-body a:visited {
+  color: #000;
+}
+
+.field-name-body a:link:after,
+.field-name-body a:link:before {
+  content: "\207A";
+}
+.field-name-body a:visited:after,
+.field-name-body a:visited:before {
+  content: "\207B";
 }
 
 /*
@@ -885,7 +892,7 @@ div#block-search-form {
  * iss' bottom ruls under navigation
  */
 #navigation {
-	border-bottom: 2px solid #DDD;
+	border-bottom: 1px solid #000;
 }
 
 /*
