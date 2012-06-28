@@ -290,12 +290,12 @@ a:active {
   color: #000;
 }
 
-.field-name-body a:link:after,
-.field-name-body a:link:before {
+.field-name-body a:link:after {
+  color: #922;
   content: "\207A";
 }
-.field-name-body a:visited:after,
-.field-name-body a:visited:before {
+.field-name-body a:visited:after {
+  color: #922;
   content: "\207B";
 }
 
