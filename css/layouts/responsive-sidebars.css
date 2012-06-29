@@ -41,8 +41,8 @@
   box-sizing: border-box;
   overflow: visible;
   word-wrap: break-word;
-	width: 780px;
 	margin-left: -10px;
+	margin-right: -10px;
 }
 
 /*
