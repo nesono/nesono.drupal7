@@ -80,6 +80,11 @@ li a.active {
 	list-style-image: none;
 }
 
+#block-menu-menu-private-links a:link,
+#block-menu-menu-private-links a:hover {
+  color: #AAA;
+}
+
 /*
  * iss' cleared float after search box
  */
@@ -111,12 +116,12 @@ div#navigation a:link,
 div#navigation a:visited,
 div#navigation a:focus,
 div#navigation a:active {
-  color: #000;
+  color: #EEE;
   text-decoration: none;
 	padding-right:5px;
 }
 div#navigation a:hover {
-  color: #888;
+  color: #EEE;
 }
 .region-navigation {
 }
