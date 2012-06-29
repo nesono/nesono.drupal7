@@ -110,10 +110,6 @@
 
     <?php print render($page['header']); ?>
 
-  </header>
-
-  <div id="main">
-
     <div id="navigation">
 
       <?php if ($main_menu): ?>
@@ -140,6 +136,11 @@
       <?php print render($page['navigation']); ?>
 
     </div><!-- /#navigation -->
+
+
+  </header>
+
+  <div id="main">
 
     <div id="content" class="column" role="main">
       <?php print render($page['highlighted']); ?>
