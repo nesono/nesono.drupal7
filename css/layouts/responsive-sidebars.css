@@ -278,6 +278,19 @@
 /*
  * iss' centered footer
  */
-#footer {
-	text-align: center;
+#footer,
+#footer p {
+  font-size: 90%;
+	text-align: right;
+	margin-top: 0.5em;
+	margin-bottom: 0;
+	color: #FFF;
+	background-color: #555;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-right: 10px;
+}
+
+#footer .block {
+  margin-bottom: 0.5em;
 }
