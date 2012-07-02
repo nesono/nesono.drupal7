@@ -117,12 +117,12 @@ div#navigation a:link,
 div#navigation a:visited,
 div#navigation a:focus,
 div#navigation a:active {
-  color: #EEE;
+  color: #BBB;
   text-decoration: none;
 	padding-right:5px;
 }
 div#navigation a:hover {
-  color: #EEE;
+  color: #BBB;
 }
 .region-navigation {
 }
