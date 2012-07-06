@@ -75,9 +75,8 @@
 @media all and (min-width: 480px) {
   #navigation {
     top: 0; /* Move the navbar up inside #main's padding. */
-    width: 100%;
 		margin-top: 1em;
-		padding-bottom: 1em;
+		padding: 0.6em;
   }
 }
 
