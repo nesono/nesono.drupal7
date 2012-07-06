@@ -62,6 +62,7 @@ body {
 #site-name a:visited {
   color: #FFF;
   text-decoration: none;
+	text-transform: none;
 }
 #site-name a:hover,
 #site-name a:focus {
