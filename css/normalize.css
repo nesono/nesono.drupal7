@@ -251,6 +251,7 @@ textarea {
 
 body {
   margin: 0;
+	color: #222;
 }
 
 
@@ -296,7 +297,7 @@ a:active {
 /* TEXT BODY LINKS */
 .field-name-body a:link,
 .field-name-body a:visited {
-  color: #000;
+  color: #222;
 }
 
 .field-name-body a:link:after {
@@ -325,7 +326,7 @@ ul.nice-menu a:hover {
 
 h2.node-title a:link,
 h2.node-title a:visited {
-	color: black;
+	color: #222;
 }
 
 /* =============================================================================
