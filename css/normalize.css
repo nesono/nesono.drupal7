@@ -838,6 +838,26 @@ p.submitted {
 	color: #888;
 }
 
+/* hide submitted in views */
+.view-content .submitted {
+  display: none;
+}
+
+/* hide blog categories in view */
+.view-content .field-name-taxonomy-vocabulary-3 {
+  display: none;
+}
+
+/* make content in view with less margin */
+.view-content .field-name-body p {
+  margin: 0.5em 0;
+}
+
+/* adjust font for inline links after node/teaser */
+ul.links {
+  font-size: 0.85em;
+}
+
 /*
  * iss' style for article list
  */
