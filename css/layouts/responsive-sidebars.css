@@ -33,17 +33,22 @@
 .region-sidebar-first,
 .region-sidebar-second,
 #footer {
-  padding-left: 10px;
-  padding-right: 10px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   overflow: visible;
   word-wrap: break-word;
+  padding-left: 10px;
+  padding-right: 10px;
 	margin-left: -10px;
 	margin-right: -10px;
 	clear: both;
+}
+
+#content
+{
+  padding: 30px;
 }
 
 /*
