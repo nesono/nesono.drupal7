@@ -295,7 +295,7 @@ a:active {
 }
 
 /* TEXT BODY LINKS */
-.field-name-body a:link,
+/*.field-name-body a:link,
 .field-name-body a:visited {
   color: #222;
 }
@@ -307,7 +307,7 @@ a:active {
 .field-name-body a:visited:after {
   color: #922;
   content: "\207B";
-}
+}*/
 
 /*
  * iss' addition for nice menu link colors
