@@ -975,6 +975,8 @@ div.syntaxhighlighter {
  */
 .syntaxhighlighter {
   overflow-y: hidden !important;
+	font-family: Monaco, "Bitstream Vera Sans", "Courier New", monospace;
+	font-size: 0.85em !important;
 }
 /*
  * iss makes syntaxhighlighter wrap code (again)
