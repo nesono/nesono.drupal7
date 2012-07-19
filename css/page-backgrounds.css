@@ -14,7 +14,7 @@ html {
 }
 
 body {
-	background-color: #EEE;
+	background-color: #555;
 }
 
 #page {
@@ -23,11 +23,16 @@ body {
 }
 
 #header {
-  background-color: #922;
+  background-color: #555;
 }
 
 #main {
 }
 
 #footer {
+  background-color: #555;
+}
+
+#navigation {
+  /*background-color: #555;*/
 }
