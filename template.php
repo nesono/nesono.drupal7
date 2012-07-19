@@ -237,6 +237,6 @@ function nesono_preprocess_block(&$variables, $hook) {
 function nesono_feed_icon($variables) {
   $text = t('Subscribe to @feed-title', array('@feed-title' => $variables['title']));
   if ($image = theme('image', array('path' => drupal_get_path('theme', 'nesono') . '/misc/feed.png', 'width' => 15, 'height' => 16, 'alt' => $text))) {
-    return l('r', $variables['url'], array('html' => TRUE, 'attributes' => array('class' => array('feed-icon'), 'title' => $text)));
+    return l('B', $variables['url'], array('html' => TRUE, 'attributes' => array('class' => array('feed-icon'), 'title' => $text)));
   }
 }
