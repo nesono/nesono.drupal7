@@ -141,10 +141,14 @@ td.menu-disabled {
 /*
  * iss' search form settings
  */
+/* the input field */
 .form-item-search-block-form input {
   border: 1px dotted #BBB;
 	border-radius: 5px;
+	background-color: #444;
+
 }
+/* the 'button' or link */
 #search-block-form input.form-submit {
   border: none;
 	color: #FFF;
