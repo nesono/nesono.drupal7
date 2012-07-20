@@ -296,3 +296,10 @@
 #footer .block {
   margin-bottom: 0.5em;
 }
+
+.action-links {
+  margin: 0.5em;
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+}
