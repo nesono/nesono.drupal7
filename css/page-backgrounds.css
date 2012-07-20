@@ -18,19 +18,22 @@ body {
 }
 
 #page {
-	background-color: #FFF;
 	padding: 0 10px;
 }
 
 #header {
   background-color: #555;
+	text-shadow: #222 0 0 10px;
 }
 
 #main {
+	background-color: #FFF;
+	box-shadow: #222 0 0 10px;
 }
 
 #footer {
   background-color: #555;
+	text-shadow: #222 0 0 10px;
 }
 
 #navigation {
