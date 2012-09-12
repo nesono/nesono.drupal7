@@ -460,6 +460,9 @@ strong {
 blockquote {
   /* Sets 1 unit of vertical rhythm on the top and bottom margin. */
   margin: 1.5em 30px;
+	padding-left: 10px;
+	border-left: 4px solid #888;
+	font-style: italic;
 }
 
 /*
