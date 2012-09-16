@@ -1060,5 +1060,5 @@ div.description {
  * iss fix for secondary tabs top padding (Default | Teaser | ...)
  */
 ul.secondary {
-  margin-top: 1em;
+  margin-top: 0 !important ;
 }
