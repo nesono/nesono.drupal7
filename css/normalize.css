@@ -1048,6 +1048,11 @@ div.syntaxhighlighter {
 	white-space: pre-wrap !important; /* make code wrap */
 }
 
+/* iss change gutter padding - caused high line numbers to wrap! */
+.syntaxhighlighter table td.gutter .line {
+  padding: 0 !important;
+}
+
 /*
  * iss fix for showing the whole description (e.g. in flattr config in content types)
  */
