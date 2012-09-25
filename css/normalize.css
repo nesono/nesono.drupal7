@@ -513,28 +513,8 @@ tt,
 var {
   /*font-family: "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
   _font-family: 'courier new', monospace;*/
-  font-size: 1.1em;
+  /*font-size: 1.1em;*/
   line-height: 1.5em;
-}
-
-
-
-.syntaxhighlighter a,
-.syntaxhighlighter div,
-.syntaxhighlighter code,
-.syntaxhighlighter table,
-.syntaxhighlighter table td,
-.syntaxhighlighter table tr,
-.syntaxhighlighter table tbody,
-.syntaxhighlighter table thead,
-.syntaxhighlighter table caption,
-.syntaxhighlighter textarea {
-  line-height: 1.5em !important;
-  text-align: left !important;
-  font-family: inherit !important;
-  font-weight: normal !important;
-  font-style: normal !important;
-  font-size: 1em !important;
 }
 
 /*
@@ -545,6 +525,10 @@ pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+pre > code {
+  border-left: 4pt solid #888;
 }
 
 /*
@@ -614,8 +598,13 @@ ul,
   margin: 0;
 }
 
+/* iss make definition of definition lists bold */
+dt {
+  font-weight: bold;
+}
 dd {
   margin: 0 0 0 30px; /* LTR */
+	font-style: italic
 }
 
 ul ul, ul ol,
@@ -1022,35 +1011,6 @@ h1.title + div.view {
 .node-form textarea {
   font-family: Myriad, Monaco, Monospace, Courier;
 	font-size: 10pt;
-}
-
-/*
- * iss' codeformatting
- */
-div.syntaxhighlighter {
-  border: 1px solid #BBB;
-	border-left: 5px solid #BBB;
-	padding:4px 0 4px 4px;
-}
-
-/*
- * iss' fix for syntaxhighlighter scrollbar on the right
- */
-.syntaxhighlighter {
-  overflow-y: hidden !important;
-	font-family: Monaco, "Bitstream Vera Sans", "Courier New", monospace;
-	font-size: 0.85em !important;
-}
-/*
- * iss makes syntaxhighlighter wrap code (again)
- */
-.syntaxhighlighter .line {
-	white-space: pre-wrap !important; /* make code wrap */
-}
-
-/* iss change gutter padding - caused high line numbers to wrap! */
-.syntaxhighlighter table td.gutter .line {
-  padding: 0 !important;
 }
 
 /*
