@@ -327,36 +327,6 @@ a:active {
   outline: 0;
 }
 
-/* TEXT BODY LINKS */
-/*.field-name-body a:link,
-.field-name-body a:visited {
-  color: #222;
-}
-
-.field-name-body a:link:after {
-  color: #922;
-  content: "\207A";
-}
-.field-name-body a:visited:after {
-  color: #922;
-  content: "\207B";
-}*/
-
-/*
- * iss' addition for nice menu link colors
- */
-/*ul.nice-menu a:link,
-ul.nice-menu a:visited,
-ul.nice-menu a:focus,
-ul.nice-menu a:active {
-  color: #000;
-  text-decoration: none;
-	padding-right:5px;
-}
-ul.nice-menu a:hover {
-  color: #888;
-}*/
-
 h2.node-title a:link,
 h2.node-title a:visited {
 	color: #222;
@@ -470,21 +440,13 @@ blockquote {
  */
 
 /* disable in favour of italic style below */
-/*dfn {
+dfn {
   font-style: italic;
-}*/
-
-/*
- * iss' italic font
- */
-i, cite, em, var, address, dfn {
-	font-style: italic;
 }
 
 /*
  * Addresses styling not present in IE6/7/8/9
  */
-
 mark {
   background: #ff0;
   color: #000;
@@ -924,19 +886,6 @@ div.field-type-taxonomy-term-reference > div.field-items div {
 	padding-right:1ex;
 }
 
-/*div.field-type-taxonomy-term-reference > div.field-items div a{
-  background: #CCC;
-  color: white;
-  padding: 0.1em;
-  border-radius: 0.1em;
-}*/
-
-/* grey links in blog categories */
-/*div.field-type-taxonomy-term-reference > div.field-items > div > a:link,
-div.field-type-taxonomy-term-reference > div.field-items > div > a:visited {
-	color: #888;
-}*/
-
 /* show blog categories inline with label */
 div.field-type-taxonomy-term-reference .field-label,
 div.field-type-taxonomy-term-reference .field-items {
@@ -970,14 +919,6 @@ div#block-search-form {
 #footer   {
   font-family: Bitter, Helvetica, Arial, 'sans serif';
 }
-
-/* input elements */
-/*input,
-button,
-select,
-textarea {
-  font-family: Helvetica, Arial, 'sans serif';
-}*/
 
 /*
  * iss' size of sidebar headers
