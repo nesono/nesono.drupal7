@@ -87,8 +87,6 @@
   <meta http-equiv="cleartype" content="on">
 
   <?php print $styles; ?>
-	<!-- added manually for syntax highlighting with HIGHLIGHT.JS -->
-	<link rel="stylesheet" href="https://yandex.st/highlightjs/7.2/styles/default.min.css">
   <?php print $scripts; ?>
 	<!-- added manually for syntax highlighting with HIGHLIGHT.JS -->
 	<script src="https://yandex.st/highlightjs/7.2/highlight.min.js"></script>
