@@ -854,15 +854,19 @@ ul.nice-menu ul {
  * iss' style for submission paragraph
  */
 p.submitted {
-	/*text-align: right;*/
 	margin: 0;
-	font-size: 75%;
+	margin-right: 5px;
+	margin-top: 7px;
+	font-size: 50%;
+	font-family: Bitter;
 	color: #888;
+	text-align: right;
+	float: right;
 }
 
 /* hide submitted in views */
 .view-content .submitted {
-  display: none;
+  /*display: none;*/
 }
 
 /* hide blog categories in view */

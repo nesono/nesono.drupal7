@@ -224,6 +224,18 @@ span.field-label { /* The inline field label used by the Fences module */
   color: #AAA;
 }
 
+#footer a:link,
+#footer a:visited,
+#footer a:focus {
+  color: #AAA;
+  text-decoration: none;
+	padding-right:5px;
+	text-transform: uppercase;
+}
+#footer a:hover,
+#footer a:active {
+  color: #B88;
+}
 /*
  * Page bottom
  */
