@@ -240,3 +240,7 @@ function nesono_feed_icon($variables) {
     return l('B', $variables['url'], array('html' => TRUE, 'attributes' => array('class' => array('feed-icon'), 'title' => $text)));
   }
 }
+
+function nesono_preprocess_node(&$vars, $hook) {
+  $vars['submitted'] = t('@date', array('@date' => date("M jS, Y", $vars['created'])));
+}
