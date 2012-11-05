@@ -815,23 +815,24 @@ table {
 th {
   text-align: left; /* LTR */
   padding: 0;
-  border-bottom: 2px solid #888;
+  border-bottom: 1px solid #888;
+  border-top: 1.5px solid #000;
 }
 
-/*tbody {
-  border: none;
-}*/
+tbody {
+  border-bottom: 1.5px solid #000;
+}
 
 td, th {
   padding: 3pt 6pt;
 }
 
-td + td {
+/*td + td {
 	border-left: 1px solid #888;
-}
-th + th {
+}*/
+/*th + th {
 	border-left: 1px solid #888;
-}
+}*/
 
 /*
  * iss' added styles for nice menu
