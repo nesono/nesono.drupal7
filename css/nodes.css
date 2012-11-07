@@ -86,3 +86,23 @@
 .lt-ie8 .comment-unpublished > * {
   position: relative; /* Otherwise these elements will appear below the "Unpublished" text. */
 }
+
+#content ul.links.inline a:link {
+  font-size: 80%;
+	color: #555;
+}
+
+#content ul.links.inline .node-readmore a:link {
+  font-style: italic;
+	display: block;
+	float: right;
+	font-size: 100%;
+	color: #922;
+}
+#content ul.links.inline .node-readmore a:visited {
+	color: #B88;
+}
+#content ul.links.inline .node-readmore a:before {
+  content: "... ";
+}
+
