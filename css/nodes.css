@@ -20,6 +20,13 @@
 }
 
 .node .submitted { /* The "posted by" information */
+  position: absolute;
+  top: 40pt;
+  right: 20pt;
+}
+
+.views-row > .node .submitted {
+  position: static;
 }
 
 .node .content { /* Node's content wrapper */
