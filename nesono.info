@@ -63,7 +63,13 @@ stylesheets[all][] = css/forms.css
 stylesheets[all][] = css/fields.css
 stylesheets[all][] = css/print.css
 stylesheets[all][] = css/syntaxhighlight.css
-stylesheets[all][] = css/googlecode.css
+
+;stylesheets[all][] = css/highlightjs/googlecode.css
+;stylesheets[all][] = css/highlightjs/monokai.css
+;stylesheets[all][] = css/highlightjs/tomorrow.css
+;stylesheets[all][] = css/highlightjs/github.css
+;stylesheets[all][] = css/highlightjs/tomorrow-night.css
+stylesheets[all][] = css/highlightjs/xcode.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
 ; Instead, Zen now adds conditional-comment-included classes to the html
