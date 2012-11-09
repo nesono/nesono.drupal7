@@ -490,6 +490,7 @@ pre {
 }
 
 pre > code {
+  /*border: 1pt solid #888;*/
   border-left: 4pt solid #888;
 }
 
@@ -949,13 +950,14 @@ h2.block-title {
 /*
  * iss' indent adjacent paragraphs
  */
-/*p {
-	margin-bottom: 0px;
+article p {
+	margin-bottom: 1em;
+	text-align: justify;
 }
-p+p {
-	margin-top: 0px;
-	text-indent: 1.5em;
-}*/
+article p+p {
+	margin-top: 1em;
+	text-indent: 1em;
+}
 
 
 /*
