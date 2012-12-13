@@ -822,6 +822,7 @@ th {
 
 tbody {
   border-bottom: 1.5px solid #000;
+	vertical-align: top;
 }
 
 td, th {
