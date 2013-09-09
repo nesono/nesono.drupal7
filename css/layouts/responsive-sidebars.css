@@ -306,7 +306,11 @@
 
 .action-links {
   margin: 0.5em;
-  position: absolute;
+  /*position: absolute;*/
   top: 0.5em;
   left: 0.5em;
+}
+
+ul.rules-operations-add li {
+  float: none;
 }
