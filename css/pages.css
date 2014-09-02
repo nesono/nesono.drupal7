@@ -194,6 +194,15 @@ span.field-label { /* The inline field label used by the Fences module */
 	right: 10px;
 }
 
+a:link.feed-icon,
+a:visited.feed-icon,
+a:focus.feed-icon,
+a:active.feed-icon,
+a:hover.feed-icon
+{
+	color: rgb(170, 170, 170);
+}
+
 .more-link { /* Aggregator, blog, and forum more link */
 }
 
