@@ -20,7 +20,7 @@
 }
 
 .node .submitted { /* The "posted by" information */
-  position: absolute;
+  /*position: absolute;*/
   top: 10pt;
   right: 20pt;
 }
